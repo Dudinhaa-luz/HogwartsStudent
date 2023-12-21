@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HogwartsStudentsCrud", "HogwartsStudentsCrud\HogwartsStudentsCrud.csproj", "{9EFA32E9-B3FC-41EA-B931-E361650E137B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HogwartsApi", "HogwartsStudentsCrud\HogwartsApi.csproj", "{9EFA32E9-B3FC-41EA-B931-E361650E137B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HogwartsTest", "HogwartsTest\HogwartsTest.csproj", "{32A0C068-5350-495C-87C0-A6BBD61A05D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HogwartsApiTest", "HogwartsTest\HogwartsApiTest.csproj", "{32A0C068-5350-495C-87C0-A6BBD61A05D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

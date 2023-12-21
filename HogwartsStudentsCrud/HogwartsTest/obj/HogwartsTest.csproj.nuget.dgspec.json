@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\C#\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\HogwartsTest\\HogwartsTest.csproj": {}
+    "D:\\Projetos\\C#\\HogwartsStudent\\HogwartsStudentsCrud\\HogwartsTest\\HogwartsTest.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\C#\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\HogwartsStudentsCrud.csproj": {
+    "D:\\Projetos\\C#\\HogwartsStudent\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\HogwartsApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\C#\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\HogwartsStudentsCrud.csproj",
-        "projectName": "HogwartsStudentsCrud",
-        "projectPath": "D:\\Projetos\\C#\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\HogwartsStudentsCrud.csproj",
+        "projectUniqueName": "D:\\Projetos\\C#\\HogwartsStudent\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\HogwartsApi.csproj",
+        "projectName": "HogwartsApi",
+        "projectPath": "D:\\Projetos\\C#\\HogwartsStudent\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\HogwartsApi.csproj",
         "packagesPath": "C:\\Users\\Maria Eduarda da Luz\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\C#\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\obj\\",
+        "outputPath": "D:\\Projetos\\C#\\HogwartsStudent\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Maria Eduarda da Luz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -84,14 +84,14 @@
         }
       }
     },
-    "D:\\Projetos\\C#\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\HogwartsTest\\HogwartsTest.csproj": {
+    "D:\\Projetos\\C#\\HogwartsStudent\\HogwartsStudentsCrud\\HogwartsTest\\HogwartsTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\C#\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\HogwartsTest\\HogwartsTest.csproj",
+        "projectUniqueName": "D:\\Projetos\\C#\\HogwartsStudent\\HogwartsStudentsCrud\\HogwartsTest\\HogwartsTest.csproj",
         "projectName": "HogwartsTest",
-        "projectPath": "D:\\Projetos\\C#\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\HogwartsTest\\HogwartsTest.csproj",
+        "projectPath": "D:\\Projetos\\C#\\HogwartsStudent\\HogwartsStudentsCrud\\HogwartsTest\\HogwartsTest.csproj",
         "packagesPath": "C:\\Users\\Maria Eduarda da Luz\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\C#\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\HogwartsTest\\obj\\",
+        "outputPath": "D:\\Projetos\\C#\\HogwartsStudent\\HogwartsStudentsCrud\\HogwartsTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Maria Eduarda da Luz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -109,8 +109,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Projetos\\C#\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\HogwartsStudentsCrud.csproj": {
-                "projectPath": "D:\\Projetos\\C#\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\HogwartsStudentsCrud.csproj"
+              "D:\\Projetos\\C#\\HogwartsStudent\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\HogwartsApi.csproj": {
+                "projectPath": "D:\\Projetos\\C#\\HogwartsStudent\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\HogwartsApi.csproj"
               }
             }
           }
@@ -125,6 +125,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.5.0, )"
