@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/CDHPARXhskjXtjEvbRtUV4BnV/57TY2gjNyy1TIgHIr12g7ejdFlTrvvbIt6lJ8pj4msEeaxYiMyGaQIHefEQ==",
+  "dgSpecHash": "NvJCjqXrZWmgWhh03AKciIE3Z7YePIhZPysphBpv7Pc2qf4BfyCUVBVu4bmjhbgK8TAvOV4Fu0iVA1fFwAT5Xg==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\C#\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\HogwartsStudentsCrud.csproj",
+  "projectFilePath": "D:\\Projetos\\C#\\HogwartsStudent\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\HogwartsApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Maria Eduarda da Luz\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Maria Eduarda da Luz\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

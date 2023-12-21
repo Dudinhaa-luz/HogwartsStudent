@@ -28,7 +28,12 @@ namespace HogwartsStudentsCrud.Repositories
 
         public async Task<Student> GetById(Guid id)
         {
-            return await _context.Students.Where(x => x.Id == id).FirstOrDefaultAsync();
+            return await _context.Students.FirstOrDefaultAsync(x => x.Id == id);
+        }
+
+        public async Task<List<Student>> GetAll()
+        {
+            return await _context.Students.ToListAsync();
         }
     }
 }

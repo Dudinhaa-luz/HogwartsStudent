@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("HogwartsStudentsCrud")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("HogwartsApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("HogwartsStudentsCrud")]
-[assembly: System.Reflection.AssemblyTitleAttribute("HogwartsStudentsCrud")]
+[assembly: System.Reflection.AssemblyProductAttribute("HogwartsApi")]
+[assembly: System.Reflection.AssemblyTitleAttribute("HogwartsApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.CompilerServices.InternalsVisibleTo("HogwartsTest\\")]
 

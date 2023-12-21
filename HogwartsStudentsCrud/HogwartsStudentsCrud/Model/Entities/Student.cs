@@ -9,9 +9,9 @@ namespace HogwartsStudentsCrud.Model.Entities
         public DateTime BirthDate { get; set; }
         public BloodStatusTypeEnum BloodStatus { get; set; }
         public string Nationality { get; set; }
-        public DateTime EnrollmentYear { get; set; }
+        public string EnrollmentYear { get; set; }
         public GenderEnum Gender { get; set; }
-        public string Bogeyman { get; set; }
+        public string Boggart { get; set; }
         public string Wand { get; set; }
         public string Patron { get; set; }
         public HousesEnum House { get; set; }

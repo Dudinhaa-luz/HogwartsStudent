@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "cqcPcSM23INz+jHtWQkVDtCpvlEQZ8g506Fi/tu3Ymg=",
-  "Source": "HogwartsStudentsCrud",
-  "BasePath": "_content/HogwartsStudentsCrud",
+  "Hash": "EXaVDD61/GPLy39gdPggmSFuEWzYyeGvw9oOEaJAlf4=",
+  "Source": "HogwartsApi",
+  "BasePath": "_content/HogwartsApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

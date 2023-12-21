@@ -5,6 +5,7 @@ namespace HogwartsStudentsCrud.Services.Interfaces
 {
     public interface IStudentService
     {
-        Task<BaseResponseCommand<Student>> Add(Student student);
+        Task<BaseResponseCommand> Add(Student student);
+        Task<BaseResponseCommand> GetAll();
     }
 }

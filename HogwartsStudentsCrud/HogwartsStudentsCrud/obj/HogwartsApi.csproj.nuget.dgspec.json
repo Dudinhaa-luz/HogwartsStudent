@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\C#\\HogwartsStudent\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\HogwartsStudentsCrud.csproj": {}
+    "D:\\Projetos\\C#\\HogwartsStudent\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\HogwartsApi.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\C#\\HogwartsStudent\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\HogwartsStudentsCrud.csproj": {
+    "D:\\Projetos\\C#\\HogwartsStudent\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\HogwartsApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\C#\\HogwartsStudent\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\HogwartsStudentsCrud.csproj",
-        "projectName": "HogwartsStudentsCrud",
-        "projectPath": "D:\\Projetos\\C#\\HogwartsStudent\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\HogwartsStudentsCrud.csproj",
+        "projectUniqueName": "D:\\Projetos\\C#\\HogwartsStudent\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\HogwartsApi.csproj",
+        "projectName": "HogwartsApi",
+        "projectPath": "D:\\Projetos\\C#\\HogwartsStudent\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\HogwartsApi.csproj",
         "packagesPath": "C:\\Users\\Maria Eduarda da Luz\\.nuget\\packages\\",
         "outputPath": "D:\\Projetos\\C#\\HogwartsStudent\\HogwartsStudentsCrud\\HogwartsStudentsCrud\\obj\\",
         "projectStyle": "PackageReference",

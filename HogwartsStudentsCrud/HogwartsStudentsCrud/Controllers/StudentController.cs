@@ -18,7 +18,7 @@ namespace HogwartsStudentsCrud.Controllers
 
         [HttpPost]
         [Route("Add")]
-        public async Task<IActionResult> AddStudent(Student student)
+        public async Task<IActionResult> Add(Student student)
         {
             if(student == null)
             {
@@ -28,6 +28,18 @@ namespace HogwartsStudentsCrud.Controllers
 
             var response = await _studentService.Add(student);
             if(response.IsSuccess)
+                return Ok(response);
+            else
+                return BadRequest(response.Message);
+        }
+
+        [HttpGet]
+        [Route("GetAll")]
+        public async Task<IActionResult> GetAll()
+        {
+            var response = await _studentService.GetAll();
+
+            if (response.IsSuccess)
                 return Ok(response);
             else
                 return BadRequest(response.Message);

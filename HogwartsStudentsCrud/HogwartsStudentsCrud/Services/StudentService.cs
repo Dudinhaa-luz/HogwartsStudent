@@ -16,13 +16,13 @@ namespace HogwartsStudentsCrud.Services
             _studentRepository = studentRepository;
         }
 
-        public async Task<BaseResponseCommand<Student>> Add(Student student)
+        public async Task<BaseResponseCommand> Add(Student student)
         {
             try
             {
                 await _studentRepository.Update(student);
 
-                return new BaseResponseCommand<Student>
+                return new ResponseCommand<Student>
                 {
                     Code = HttpStatusCode.OK,
                     Message = $"Bruxo {student.Name} matriculado com sucesso. \r\n Seja bem vindo a Escola de Magia e Bruxaria de Hogwarts!",
@@ -32,16 +32,39 @@ namespace HogwartsStudentsCrud.Services
             }
             catch (Exception ex)
             {
-                return new BaseResponseCommand<Student>
-                {
-                    Code = HttpStatusCode.BadGateway,
-                    Message = $"Não conseguimos realizar seu cadastro, talvez você seja um trouxa! Exception: {ex.Message}",
-                    IsSuccess = false,
-                    Object = student
-                };
+                return ResponseMessages.ExceptionResponse(ex);
             }
         }
-        
+
+        public async Task<BaseResponseCommand> GetAll()
+        {
+            try
+            {
+                var students = await _studentRepository.GetAll();
+
+                if(students.Count == 0)
+                {
+                    return new ResponseCommand()
+                    {
+                        Code = HttpStatusCode.NotFound,
+                        Message = $"Nenhum bruxo matriculado!",
+                        IsSuccess = false
+                    };
+                }
+
+                return new ResponseCommand<List<Student>>()
+                {
+                    Code = HttpStatusCode.OK,
+                    Message = $"Bruxos encontrados",
+                    IsSuccess = true,
+                    Object = students
+                };
+            }
+            catch (Exception ex)
+            {
+                return ResponseMessages.ExceptionResponse(ex);
+            }
+        }
     }
 }
 
